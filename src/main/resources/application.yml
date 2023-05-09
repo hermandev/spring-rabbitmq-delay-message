@@ -1,0 +1,10 @@
+server:
+  port: 5000
+
+spring:
+  application:
+    name: spring-rabbitmq-delay-message
+  rabbitmq:
+    username: root
+    password: 7qvt6t2738
+    addresses: localhost:5672

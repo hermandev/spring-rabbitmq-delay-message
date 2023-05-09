@@ -1,0 +1,11 @@
+### GET App
+GET http://localhost:5000/app
+Accept: application/json
+
+### Send POST push message
+POST http://localhost:5000/push
+Content-Type: application/json
+
+{
+  "message": "Pesan 5"
+}
